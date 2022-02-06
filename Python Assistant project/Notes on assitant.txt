@@ -1,0 +1,27 @@
+Using wolfram as an api
+
+using wikepedia api
+
+DO NOT USE FILE NAMES CALLED WIKIPEDIA OR WOLFRAM>>>> It creaes a conflick as below
+
+AttributeError: partially initialized module 'wikipedia' has no attribute 'summary' (most likely due to a circular import)  
+
+try and axcept loop
+
+for wikipedia install - pip install wikipedia
+for wolframealpha install - pip install wolframalpha
+for GUI install - pip install -U wxPython
+For speach install eSpeak - couldnt get this to work
+used pyttsx3  - pip install pyttsx3
+
+import pyttsx3
+engine = pyttsx3.init()
+engine.say('Welcome Master Mike')
+engine.runAndWait()
+
+
+
+
+to change language used in wikipedia answers look at https://meta.wikimedia.org/wiki/List_of_Wikipedias for the abbreviation
+
+take not e that _init_ is not the same as __init__ (double underscore)
